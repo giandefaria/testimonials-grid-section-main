@@ -107,3 +107,28 @@ p {
     grid-column: 2/4;
     
 }
+
+@media screen and (max-width: 800px) {
+
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 90%;
+        margin-top: 70px;
+    }
+
+    .daniel, .jonathan, .kira, .jeanette, .patrick{
+
+        grid-row: unset;
+        grid-column: unset;
+    }
+
+    .daniel {
+        background: hsl(263, 55%, 52%) url(images/bg-pattern-quotation.svg) no-repeat 80% 0;
+    }
+
+    .kira {
+        grid-row: 5/6;
+    }
+    
+}
