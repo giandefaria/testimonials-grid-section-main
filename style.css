@@ -1,3 +1,7 @@
+html {
+    background: hsl(210, 46%, 95%);
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -8,30 +12,68 @@
     margin: 200px auto;
 }
 
-.daniel {
-    background: lightgreen;
-    grid-column: 1 / 3;
+img {
+    border-radius: 30px;
+}
+
+.title {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12px;
+    margin-left: 10px;
+    line-height: 19px;
 
 }
 
+.daniel h2, .daniel h3, .jonathan h2, .jonathan h3, .patrick h2, .patrick h3 {
+    color:hsl(0, 0%, 81%);
+}
+
+h3 {
+    opacity: 50%;
+}
+
+p {
+    opacity: 70%;
+}
+
+.daniel p, .jonathan p, .patrick p {
+ 
+    color: hsl(0, 0%, 81%)
+}
+
+.daniel, .jonathan, .kira, .jeanette, .patrick {
+    padding: 18px;
+    border-radius: 8px
+    
+}
+
+.daniel {
+    background: hsl(263, 55%, 52%);
+    grid-column: 1 / 3;
+    
+
+}
+
+
 .jonathan {
-    background: lightpink;
+    background: hsl(217, 19%, 35%);
 }
 
 .kira {
-    background: lightslategray;
+    background: hsl(0, 0%, 100%);
     grid-row: 1/3;
     grid-column: 4/5;
 }
 
 .jeanette {
-    background: lightskyblue;
+    background: hsl(0, 0%, 100%);
     grid-column: 1 / 2;
     grid-row: 2 / 3;
 }
 
 .patrick {
-    background: lightgrey;
+    background: hsl(219, 29%, 14%);
     grid-row: 2/3;
     grid-column: 2/4;
 }
