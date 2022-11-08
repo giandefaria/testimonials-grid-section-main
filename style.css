@@ -2,6 +2,13 @@ html {
     background: hsl(210, 46%, 95%);
 }
 
+h1, h2, h3, p {
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -25,7 +32,7 @@ img {
 
 }
 
-.daniel h2, .daniel h3, .jonathan h2, .jonathan h3, .patrick h2, .patrick h3 {
+.daniel h1, .daniel h2, .daniel h3, .jonathan h1, .jonathan h2, .jonathan h3, .patrick h1, .patrick h2, .patrick h3 {
     color:hsl(0, 0%, 81%);
 }
 
@@ -35,6 +42,7 @@ h3 {
 
 p {
     opacity: 70%;
+    font-size: 13px;
 }
 
 .daniel p, .jonathan p, .patrick p {
