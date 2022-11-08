@@ -49,7 +49,7 @@ p {
 }
 
 .daniel {
-    background: hsl(263, 55%, 52%);
+    background: hsl(263, 55%, 52%) url(images/bg-pattern-quotation.svg) no-repeat 355px 0;
     grid-column: 1 / 3;
     
 
