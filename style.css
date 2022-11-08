@@ -20,29 +20,40 @@ h1, h2, h3, p {
 }
 
 img {
+    width: 30px;
+    margin-top: 8px;
     border-radius: 30px;
 }
 
 .title {
     display: inline-block;
     vertical-align: top;
-    margin-top: 12px;
+    margin-top: 5px;
     margin-left: 10px;
     line-height: 19px;
 
 }
 
 .daniel h1, .daniel h2, .daniel h3, .jonathan h1, .jonathan h2, .jonathan h3, .patrick h1, .patrick h2, .patrick h3 {
-    color:hsl(0, 0%, 81%);
+    color:hsl(210, 46%, 95%);
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 18px;
 }
 
 h3 {
     opacity: 50%;
+    font-size: 12px;
 }
 
 p {
     opacity: 70%;
     font-size: 13px;
+    margin-top: 20px;
+    word-spacing: 1px;
+    line-height: 16px;
 }
 
 .daniel p, .jonathan p, .patrick p {
@@ -51,7 +62,7 @@ p {
 }
 
 .daniel, .jonathan, .kira, .jeanette, .patrick {
-    padding: 18px;
+    padding: 20px;
     border-radius: 8px
     
 }
