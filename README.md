@@ -5,10 +5,7 @@ challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/testi
 **Para executar esse projeto basta executar o arquivo index.html**
 
  # Arquivo index.html
- * 
+ * Aqui constam os textos e as caixas do projeto
 
  # Arquivo style.css
- * 
-
- # Arquivo script.js
-  * 
+ * Realizei a estilização do projeto através da ferramenta "grid",  criando 4 colunas de fração igual e duas linhas de fração igual no visual via desktop. Já no celular isso foi alterado para uma coluna de uma fração e uma linha de 1 fração, resetando o valor das caixas de depoimentos pessoais para ficar um embaixo do outro.
