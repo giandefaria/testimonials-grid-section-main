@@ -26,7 +26,7 @@
 O layout do projeto é baseado nesse challenge do site Frontend Mentor: https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7
 
 
-O objetivo é criar uma calculadora que definirá o valor a ser pago por cada pessoa na conta de um restaurante. Será informado o valor total da conta, o número de pessoas, e a % do valor que será pago a título de gorjeta.
+O objetivo é criar um site com um visual que permita desenvolver a habilidade de usar o grid no css.
 
 Para executar esse projeto basta executar o arquivo index.html.
 
